@@ -2,6 +2,12 @@
 #        Script MySQL.
 #------------------------------------------------------------
 
+#------------------------------------------------------------
+# CREATE DataBase
+#------------------------------------------------------------
+
+CREATE DATABASE IF NOT EXISTS `m2lgestiondesadherents` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `m2lgestiondesadherents`;
 
 #------------------------------------------------------------
 # Table: Club

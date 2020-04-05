@@ -17,7 +17,7 @@ namespace Maison_des_ligues
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPrincipal());
+            Application.Run(new Connection());
         }
     }
 }
