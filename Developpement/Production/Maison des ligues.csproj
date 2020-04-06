@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="accès aux données\DBConnection.cs" />
+    <Compile Include="couche métier\AccesRight.cs" />
+    <Compile Include="couche métier\Club.cs" />
     <Compile Include="couche métier\User.cs" />
     <Compile Include="Forms\Ajouter.cs">
       <SubType>Form</SubType>
