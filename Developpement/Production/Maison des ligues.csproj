@@ -46,9 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="accès aux données\AdherentManagement.cs" />
-    <Compile Include="accès aux données\CreationAdherents.cs" />
-    <Compile Include="couche métier\Adherent.cs" />
+    <Compile Include="accès aux données\DBConnection.cs" />
+    <Compile Include="couche métier\User.cs" />
     <Compile Include="Forms\Ajouter.cs">
       <SubType>Form</SubType>
     </Compile>
